@@ -1,11 +1,17 @@
 import './index.css'
+import Footer from './assets/Footer';
+import Nav from './assets/Nav';
+import Body from './assets/Body';
 
 function App() {
 
 
   return (
     <>
-      <div className='text-green-500'>Hola Mundo</div>  
+      <Nav/>
+      <Body/> 
+      {/* <div className='text-black-500'>hola mundo</div>  */} 
+      <Footer />
     </>
   )
 }
