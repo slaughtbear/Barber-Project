@@ -2,68 +2,27 @@ import React from "react";
 
 function Body() {
     return (
+      <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+  <img
+    alt=""
+    src="./src/assets/img/corte.jpg"
+    className="absolute inset-0 h-full w-full object-cover"
+  />
 
+  <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+    <div className="p-4 sm:p-6">
 
-<div className="overflow-x-auto">
-  <table className="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
-    <thead className="ltr:text-left rtl:text-right">
-      <tr>
-        <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Name</th>
-        <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Date of Birth</th>
-        <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Role</th>
-        <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Salary</th>
-        <th className="px-4 py-2"></th>
-      </tr>
-    </thead>
+    <a className="block text-center">
+     <h3 className="mt-0.5 text-lg text-white">Tenemos años de experiencia que nos respaldan</h3>
+    </a>
 
-    <tbody className="divide-y divide-gray-200">
-      <tr>
-        <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">John Doe</td>
-        <td className="whitespace-nowrap px-4 py-2 text-gray-700">24/05/1995</td>
-        <td className="whitespace-nowrap px-4 py-2 text-gray-700">Web Developer</td>
-        <td className="whitespace-nowrap px-4 py-2 text-gray-700">$120,000</td>
-        <td className="whitespace-nowrap px-4 py-2">
-          <a
-            href="#"
-            className="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700"
-          >
-            View
-          </a>
-        </td>
-      </tr>
+      <p className="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
+        
+      </p>
+    </div>
+  </div>
+</article>
 
-      <tr>
-        <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Jane Doe</td>
-        <td className="whitespace-nowrap px-4 py-2 text-gray-700">04/11/1980</td>
-        <td className="whitespace-nowrap px-4 py-2 text-gray-700">Web Designer</td>
-        <td className="whitespace-nowrap px-4 py-2 text-gray-700">$100,000</td>
-        <td className="whitespace-nowrap px-4 py-2">
-          <a
-            href="#"
-            className="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700"
-          >
-            View
-          </a>
-        </td>
-      </tr>
-
-      <tr>
-        <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Gary Barlow</td>
-        <td className="whitespace-nowrap px-4 py-2 text-gray-700">24/05/1995</td>
-        <td className="whitespace-nowrap px-4 py-2 text-gray-700">Singer</td>
-        <td className="whitespace-nowrap px-4 py-2 text-gray-700">$20,000</td>
-        <td className="whitespace-nowrap px-4 py-2">
-          <a
-            href="#"
-            className="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700"
-          >
-            View
-          </a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
     )
 }
 

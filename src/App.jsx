@@ -2,6 +2,9 @@ import './index.css'
 import Footer from './assets/Footer';
 import Nav from './assets/Nav';
 import Body from './assets/Body';
+import Banner from './assets/Banner';
+import Us from './assets/Us';
+
 
 function App() {
 
@@ -9,8 +12,9 @@ function App() {
   return (
     <>
       <Nav/>
-      <Body/> 
-      {/* <div className='text-black-500'>hola mundo</div>  */} 
+      <Us />
+      <Body/>
+      <Banner />
       <Footer />
     </>
   )
