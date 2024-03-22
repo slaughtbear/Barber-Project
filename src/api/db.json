@@ -1,0 +1,28 @@
+{
+  "citas": [
+    {
+      "id": 1,
+      "nombre_cliente": "Ivan Aguirre",
+      "telefono": "123456789",
+      "fecha": "2024-03-25",
+      "hora": "10:00 AM",
+      "servicio": "Corte de cabello"
+    },
+    {
+      "id": 3,
+      "nombre_cliente": "Pedro Ramirez",
+      "telefono": "555123456",
+      "fecha": "2024-03-27",
+      "hora": "2:00 PM",
+      "servicio": "Corte de barba"
+    },
+    {
+      "id": 4,
+      "nombre_cliente": "Joaquin Lopez",
+      "telefono": "6141234567",
+      "fecha": "2024-03-23",
+      "hora": "4:00 PM",
+      "servicio": "Corte de cabello"
+    }
+  ]
+}
